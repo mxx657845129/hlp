@@ -38,9 +38,8 @@
   "language_model": {
     "path_to_train_file_lm": "../data/anki/anki-cmn-eng.txt",
     "language": "zh",
-    "en_tokenize_type": "WORD",
-    "zh_tokenize_type": "CHAR",
-    "EPOCHS": 10,
+    "tokenize_type": "CHAR",
+    "EPOCHS": 4,
     "num_sentences": 1000,
     "BATCH_SIZE": 32,
     "train_size": 0.8,
